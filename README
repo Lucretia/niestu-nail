@@ -1,0 +1,18 @@
+
+"For the want of a nail, the kingdom was lost."  -- Traditional proverb
+
+NAIL is the NiEstu Application Infrastructure Library, a rather grand term for
+what is really a simple set of packages that we find useful, and that we
+didn't want to keep copying into every application's source directory.
+
+Current build instructions are dirt simple:
+
+   gcc -c [favorite-other-options] *.adb
+   chmod -w *.{o,ali}
+
+Some systems use "gnatgcc" instead of gcc.  Place the directory where your
+GNAT builds can find it, either via a command-line option (-I, -aO, etc.), or
+put it in your ADA_INCLUDE_PATH and ADA_OBJECT_PATH environment variables.
+
+Bug reports welcome.  If you have this file, you presumably know where to
+report them.

@@ -1,0 +1,12 @@
+with "../common/common";
+
+project Nail is
+   for Source_Dirs use ("source");
+   for Object_Dir use "build";
+   for Library_Name use "Nail";
+   for Library_Dir use "library";
+   for Library_Kind use "static";
+
+   package Builder renames Common.Builder;
+   package Compiler renames Common.Compiler;
+end Nail;
