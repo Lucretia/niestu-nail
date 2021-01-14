@@ -1,4 +1,4 @@
-with "../common/common";
+with "../niestu-jk4-common/common";
 
 project Nail is
    for Source_Dirs use ("source");
